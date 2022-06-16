@@ -19,7 +19,7 @@ for vid in random_vids:
 # Combine clips into video
 final_vid = concatenate_videoclips(clip_list)
 
-#Write final video to loading.mp4
+# Write final video to loading.mp4
 os.chdir(here)
 final_vid.write_videofile('Content\\Movies\\loading.mp4')
 subprocess.run('Binaries\\Win64\\Borderlands3.exe')
